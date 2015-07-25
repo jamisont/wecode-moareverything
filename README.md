@@ -4,7 +4,7 @@ Use this readme to get started exploring the EMPOWERMEME site. This was a group 
 
 ## About the app
 
-This is a single-page web app to serve images of animals and inspirational captions. The images and captions are stored in res/ and are served up by Node.js.
+This is a single-page web app to serve images of animals and inspirational captions. The images for the node app are stored in static/, while the captions are stored in node-data.txt, and are served up by Node.js.
 
 ## Required tools
 
