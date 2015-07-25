@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="reset.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+
+    <div class="wrapper">
+      <div id="header">
+          <h1>Moar Everything</h1>
+      </div>
+
+      <div id="apparel-listing">
+        <p>Create a New Listing</p>
+        <form name="myform" action="javascript:addListing()">
+          <div class="row">
+            <label>Name:</label>  <input id="name-input" name="Name" type="text" placeholder="Moar Item Name"/> 
+          </div>
+          <div class="row">
+            <label>File:</label>  <input id="file-input" name="File" type="text" placeholder="Moar File Name"/> 
+          </div>
+          <div class="row">
+            <label>Author:</label>  <input id="author-input" name="Author" type="text" placeholder="Moar Contributor"/> 
+          </div>
+          <div class="row">
+            <label>Description:</label>  <input id="desc-input" name="Desc" type="text" placeholder="Moar Item Description"/>
+          </div>
+          <div class="row right">
+            <input id="submitButton" name="Submit"  type="submit" value="Add Listing"/>
+          </div>
+        </form>
+      </div>
+
+      <ul class="listings"></ul>
+
+    </div>
+
+
+	<script src="jquery-1.9.0.js"></script>
+	<script src="listings.js"></script>
+	</body>
+</html>
