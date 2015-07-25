@@ -80,7 +80,7 @@ nav ul li
 {
   max-width: 100%;
   margin: 0;
-  background-color: #eeeeee;
+  background-color: #7bff98;
 }
 
 #alarm
@@ -139,6 +139,17 @@ section ul li
   max-width: 100%;
   float: center;
   padding: 2.5%;
+}
+
+/**********************************
+            MOODS
+**********************************/
+#moods 
+{
+  font-size: 1.4em;
+  display: inline-block;
+  text-align: left;
+  padding: 3%;
 }
 
 /**********************************
