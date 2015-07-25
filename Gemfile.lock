@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (1.6.1)
+    vienna (0.4.1)
+      rack (~> 1.5)
+
+PLATFORMS
+  ruby
+  x86-mingw32
+
+DEPENDENCIES
+  rack
+  vienna
