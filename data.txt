@@ -1,0 +1,27 @@
+{"default_path": "/home/nish/web/node",
+ "data":[
+	{"name":"file1",
+	"local_path":"res/pics/file1.png",
+	"captions":["res/captions/caption1.txt",
+			"res/captions/caption2.txt",
+			"res/captions/caption3.txt"],
+	"tags":["this","that","other"]},
+	{"name":"file2",
+	"local_path":"res/pics/file2.png",
+	"captions":["res/captions/caption1.txt",
+			"res/captions/caption3.txt"]
+	"tags":["me","you","that"]},
+	{"name":"file3",
+	"local_path":"res/pics/file3.png",
+	"captions":["res/captions/caption3.txt",
+			"res/captions/caption4.txt",
+			"res/captions/caption5.txt"]
+	"tags":["this","that","me"]},
+	{"name":"file4",
+	"local_path":"res/pics/file3.png",
+	"captions":["res/captions/caption1.txt",
+			"res/captions/caption2.txt",
+			"res/captions/caption4.txt"]
+	"tags":["special","me","you"]},
+	]
+}
