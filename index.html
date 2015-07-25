@@ -1,41 +1,21 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Moar Everything | Team 3</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link href='http://fonts.googleapis.com/css?family=Lobster|Karla' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/index.css">
-  </head>
-  <body>
-    <div id="container">
-      <header>
-        <a href="index.html">
-          <h1>Moar Everything</h1>
-          <h2>Team 3</h2>
-        </a>
-        <nav>
-          <ul>
-            <li><a href="alarm.html">Alarm</a></li>
-            <li>|</li>
-            <li><a href="random.html">Random</a></li>
-            <li>|</li>
-            <li class="last"><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-       <section>
-        <p>Click on the photo below to move the slideshow to the next image.</p>
-        <br>
-        <img id="slideshow" src="****" width="600" height="400" onclick="createImage()">
-      </section>
-      <section>
-        <p>Moar Everything helps you happy moar.</p>
-        <p> View mood-boosting images at random, or set an alarm to whatever.</p>
-      </section>
-      <footer>
-        <p>&copy; 2015 Team 3</p>
-      </footer>
-    </div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="search.js"></script>
+    <script src= "we-code-node-starter/static/jquery-1.9.0.js"></script>
+    <title>Empowermeme</title>
+</head>
+<body>
+    <form method="post" action="urlofserver">
+    <input type="checkbox" name="divesity1" value="1" > LBGTQ <br>
+    <input type="checkbox" name="divesity2" value="2" > Gender <br>
+    <input type="checkbox" name="divesity3" value="3" > Mental Illness/Disablilty <br>
+    <input type="checkbox" name="divesity4" value="4" > Phyiscal Illness/Disablitly <br>
+    <input type="checkbox" name="divesity5" value="5" > Race/Ethinicty <br>
+
+    <button type="button" id="random"> Random Empowermeme! </button>
+
+</body>
 </html>
+
